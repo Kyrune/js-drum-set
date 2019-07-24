@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+  background-color: rgb(71, 71, 71);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 28rem;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 0.5rem black;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.notes {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.note {
+  width: 10rem;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 0.5rem black;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.07s ease;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  color: #00e1ff;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.playing {
+  border-color: #00e1ff;
+  box-shadow: 0 0 1 #00e1ff;
+  transform: scale(1.1);
+}
